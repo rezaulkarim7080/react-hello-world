@@ -1,0 +1,28 @@
+.Book{
+
+    height: 100px;
+    /* width: 500px; */
+    width: auto;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+    
+}
+
+/* .Book:hover {
+
+    height: 100px;
+    width: 1000px;
+    /* width: auto; */
+    /* font-size: 18px; */
+    /* margin: 10px;
+    margin-left: 100px;
+    padding: 10px;
+    border-radius: 15px; */
+    /* color: rgb(230, 230, 230);
+    background-color: rgb(37, 36, 36);
+    transition: 0.4s; */
+
+/* }  */
