@@ -17,7 +17,6 @@ const Product = (props) => {
     width: "200px",
     float: "left",
   };
-
   return (
     <div style={productstyle}>
       <h2>{props.productName}</h2>
