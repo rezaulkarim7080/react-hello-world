@@ -10,7 +10,7 @@ function Count() {
     <div>
       <h1>Count : {count}</h1>
       {/* <button onClick={handleIncrease}>Increase</button> */}
-      <button onClick={() => setCount(count + 1)}>Increase</button>
+      <button onMouseEnter={() => setCount(count + 1)}>Increase</button>
       <button onClick={() => setCount(count - 1)}>Decrease</button>
     </div>
   );

@@ -6,6 +6,7 @@ import Book from "./components/Book";
 import Person from "./components/Person";
 import Product from "./components/product";
 import Count from "./components/count";
+import Users from "./components/users";
 
 // function App() {
 //   return (
@@ -68,11 +69,22 @@ import Count from "./components/count";
 //   );
 // }
 
+/// USING STATES
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <h1>React App JS</h1>
+//       <Count />
+//     </div>
+//   );
+// }
+
 function App() {
   return (
     <div className="App">
       <h1>React App JS</h1>
-      <Count />
+      <Users />
     </div>
   );
 }
