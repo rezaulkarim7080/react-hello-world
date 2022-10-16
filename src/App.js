@@ -4,6 +4,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Book from "./components/Book";
 import Person from "./components/Person";
+import Person1 from "./components/person1";
 import Product from "./components/product";
 import Count from "./components/count";
 import Users from "./components/users";
@@ -81,10 +82,24 @@ import Users from "./components/users";
 // }
 
 function App() {
+  const students = ["niloy", "faisal", "dorjoy"]; /// dynamic
+  //   const students = [
+  //     { nam: "niloy", rool: "5" },
+  //     { nam: "faisal", rool: "6" },
+  //     { nam: "dorjoy", rool: "7" },
+  //   ]; /// dynamic object
+
   return (
     <div className="App">
       <h1>React App JS</h1>
-      <Users />
+      <Person1 name="rezaul" roll="01" />
+      <Person1 name="karim" roll="02" />
+      <Person1 name="hassan" roll="03" />
+      <Person1 name="rakib" roll="04" />
+      <Person1 name={students[1]} roll="06" />
+      <Person1 name={students[2]} roll="07" />
+      {/* <Person1 name={students[0].nam} roll={students[0].rool} />/// dynamic object pass
+      <Person1 name={students[1].nam} roll={students[1].rool} /> */}
     </div>
   );
 }
