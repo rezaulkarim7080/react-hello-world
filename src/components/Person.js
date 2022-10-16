@@ -1,12 +1,12 @@
 //import React from "react";
-import React,{Component} from "react";
+import React, { Component } from "react";
 
 function Person() {
-  return(
+  return (
     <div>
       <h1>I am Person Component</h1>
     </div>
-  )
+  );
 }
 
 /// ARROW FUNCTTION
@@ -26,12 +26,10 @@ function Person() {
 //   return(
 //     <div>
 //       <h3> Name = {props.name} and subject = {props.subject} age = {props.age} years</h3>
-      
+
 //     </div>
 //   )
 // }
-
-
 
 // // DYNAMIC class componenet
 // class Person extends Component{
@@ -42,10 +40,10 @@ function Person() {
 //  return(
 //     <div>
 //       <h3> ChildrenName = {this.props.name} and subject = {this.props.subject} Childrenage = {this.props.age} years</h3>
-      
+
 //     </div>
 //   )
-  
+
 //   }
 // }
 
@@ -55,12 +53,10 @@ function Person() {
 //   render(){
 //  return(
 //     <div>
-//       <h3> Name = {this.props.name} and subject = {this.props.subject} age = {this.props.age} years</h3>  
+//       <h3> Name = {this.props.name} and subject = {this.props.subject} age = {this.props.age} years</h3>
 //     </div>
 //   )
 //   }
 // }
-
-
 
 export default Person;
